@@ -47,6 +47,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
-  },
-  "proxy": "https://bookmyshow-b9r1.onrender.com"
+  }
 }
