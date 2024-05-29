@@ -48,5 +48,5 @@
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   },
-  "proxy": "http://localhost:5000/"
+  "proxy": "https://bookmyshow-b9r1.onrender.com"
 }
