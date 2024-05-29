@@ -9,19 +9,11 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Profile from "./components/pages/Profile";
 import Admin from "./components/pages/Admin";
 import SingleMovie from "./components/pages/SingleMovie";
-import { useEffect } from "react";
 import BookShow from "./components/pages/BookShow";
 function App() {
   const { loading } = useSelector((state) => state.loader);
   const {user} = useSelector((state)=>state.user);
-  // console.log(user);
-
-  useEffect(()=>{
-    fetch('https://bookmyshow-b9r1.onrender.com')
-    .then(res=>res.json())
-    .then(data=>console.log(data))
-  },[]);
-  
+  // console.log(user);  
   return (
     <div>
       {loading && (
