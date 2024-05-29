@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Alegreya SC
+- Font Author: Copyright 2011 The Alegreya Project Authors (https://github.com/huertatipografica/Alegreya)
+- Font Source: https://fonts.gstatic.com/s/alegreyasc/v25/taiOGmRtCJ62-O0HhNEa-a6o05E5abe_.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
