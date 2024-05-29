@@ -190,7 +190,7 @@ const BookShow = () => {
                 currency="INR"
                   token={onToken}
                   amount={selectedSeats.length * show.ticketPrice * 100}
-                  stripeKey={process.env.REACT_APP_STRIPE_PUBLISH_KEY}
+                  stripeKey='pk_test_51PLSLJSJyW6rzaKiJnWSgNys6xecEIOvbuiHUOFOYwv60Q7TkVYC7udcgSoNwdgZLQ9PnNlGCT1mfQEoA3PHEx2H004GEecxAh'
                 >
                   {/* Use this one in some situation=> pk_test_eTH82XLklCU1LJBkr2cSDiGL001Bew71X8  */}
                   <div className="max-width-600 mx-auto">
