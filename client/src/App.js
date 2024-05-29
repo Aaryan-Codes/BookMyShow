@@ -15,6 +15,10 @@ function App() {
   const { loading } = useSelector((state) => state.loader);
   const {user} = useSelector((state)=>state.user);
   // console.log(user);
+
+  useEffect(()=>{
+    const fetch = fetch('https://bookmyshow-b9r1.onrender.com').then(res=>console.log(res));
+  },[])
   
   return (
     <div>
