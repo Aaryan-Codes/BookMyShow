@@ -17,8 +17,10 @@ function App() {
   // console.log(user);
 
   useEffect(()=>{
-    const fetch = fetch('https://bookmyshow-b9r1.onrender.com').then(res=>console.log(res));
-  },[])
+    fetch('https://bookmyshow-b9r1.onrender.com')
+    .then(res=>res.json())
+    .then(data=>console.log(data))
+  },[]);
   
   return (
     <div>
