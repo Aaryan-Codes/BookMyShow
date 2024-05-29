@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const connectDB = require('./Utils/DB');
+const cors = require('cors');
 const PORT = process.env.PORT;
 const userRoutes = require('./Routes/userRoutes');
 const theaterRoutes = require('./Routes/theaterRoutes');
@@ -17,6 +18,7 @@ app.get('/', async (req,res)=>{
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
+app.use(cors());
 
 app.use('/api/users', userRoutes);
 app.use('/api/theaters',theaterRoutes);
